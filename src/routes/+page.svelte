@@ -2,7 +2,10 @@
 	import About from '$lib/components/section/About.svelte';
 	import Contact from '$lib/components/section/Contact.svelte';
 	import Experience from '$lib/components/section/Experience.svelte';
+	import Gallery from '$lib/components/section/Gallery.svelte';
 	import Hero from '$lib/components/section/Hero.svelte';
+	import Testimonials from '$lib/components/section/Testimonials.svelte';
+	import Work from '$lib/components/section/Work.svelte';
 </script>
 
 <svelte:head>
@@ -13,44 +16,7 @@
 <Hero />
 <About />
 <Experience />
-
-<section class="text-gray-600 body-font">
-	<div class="container px-5 py-24 mx-auto flex flex-wrap">
-		<div class="flex flex-wrap -m-4">
-			<div class="p-4 md:w-full">
-				<div
-					class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col"
-				>
-					<!-- <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
-			  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-				<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-			  </svg>
-			</div> -->
-					<div class="flex-grow">
-						<h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
-						<p class="leading-relaxed text-base">
-							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-							indxgo juice poutine.
-						</p>
-						<a href="/" class="mt-3 text-blue-500 inline-flex items-center"
-							>Learn More
-							<svg
-								fill="none"
-								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								class="w-4 h-4 ml-2"
-								viewBox="0 0 24 24"
-							>
-								<path d="M5 12h14M12 5l7 7-7 7" />
-							</svg>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
+<Work />
+<Gallery />
+<Testimonials />
 <Contact />
