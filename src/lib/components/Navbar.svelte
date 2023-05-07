@@ -53,6 +53,6 @@
 				<a {href} class="mr-5 hover:text-gray-900">{title}</a>
 			{/each}
 		</nav>
-		<Button text="Contact us" varient="secondary" size="sm" />
+		<Button href="#contact" text="Contact us" varient="secondary" size="sm" />
 	</div>
 </header>
