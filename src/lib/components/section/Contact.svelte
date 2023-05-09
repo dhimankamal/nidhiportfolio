@@ -1,7 +1,7 @@
 <script>
-	import Button from "$lib/ui/Button.svelte";
-
+	import Button from '$lib/components/ui/Button.svelte';
 </script>
+
 <section class="text-gray-600 body-font relative" id="contact">
 	<div class="absolute inset-0 bg-gray-300">
 		<iframe
@@ -42,7 +42,7 @@
 				/>
 			</div>
 			<Button text="Contact now" />
-		
+
 			<p class="text-xs text-gray-500 mt-3">
 				Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
 			</p>

@@ -7,9 +7,9 @@
 </script>
 
 {#if href}
-	<a {href} class={`${varient} ${size}`}>{text}</a>
+	<a {href} class={`${varient} ${size} ${$$restProps.class}`}>{text}</a>
 {:else}
-	<button on:click={onClick} class={`${varient} ${size} `}>{text}</button>
+	<button on:click={onClick} class={`${varient} ${size} ${$$restProps.class}`}>{text}</button>
 {/if}
 
 <style lang="postcss">

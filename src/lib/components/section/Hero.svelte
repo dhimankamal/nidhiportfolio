@@ -1,7 +1,7 @@
 <script>
-	import Button from "$lib/ui/Button.svelte";
-
+	import Button from '$lib/components/ui/Button.svelte';
 </script>
+
 <section class="text-gray-600 body-font">
 	<div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 		<div
@@ -21,8 +21,8 @@
 				overcome a wide range of gynecological and obstetric issues.
 			</p>
 			<div class="flex justify-center gap-4">
-				<Button text="contact" />
-                <Button text="about" varient="secondary" />
+				<Button text="contact" href="#contact" />
+				<Button text="about" href="#about" varient="secondary" />
 			</div>
 		</div>
 		<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
