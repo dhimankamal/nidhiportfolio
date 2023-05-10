@@ -1,12 +1,47 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Hamburger from '../svg/icons/Hamburger.svelte';
 	import Logo from '../svg/icons/Logo.svelte';
 	import Button from '../ui/Button.svelte';
 	import { navlinks } from './navlinks';
 
 	let isActive: boolean = false;
+	let activeSectionId: string | null = null;
 
 	const handleMenuClick = () => (isActive = !isActive);
+
+	onMount(() => {
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				const { isIntersecting, target } = entry;
+				const sectionId = target.id;
+
+				if (isIntersecting) {
+					// Section entered the viewport
+					if (sectionId !== activeSectionId) {
+						// Update active section
+						activeSectionId = sectionId;
+					}
+				} else {
+					// Section left the viewport
+					if (sectionId === activeSectionId) {
+						// Update active section
+						activeSectionId = null;
+					}
+				}
+			});
+		});
+
+		// Get all sections by their IDs
+		const sections = Array.from(document.querySelectorAll('section'));
+
+		// Observe each section
+		sections.forEach((section) => {
+			observer.observe(section);
+		});
+	});
+
+	$: console.log('activeSectionId', activeSectionId);
 </script>
 
 <header class="text-gray-600 body-font sticky top-0 bg-white z-50">
@@ -22,10 +57,14 @@
 		<div class="items-center hidden md:flex">
 			<nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
 				{#each navlinks as { title, href }}
-					<a {href} class="mr-5 hover:text-gray-900">{title}</a>
+					<a
+						{href}
+						class:text-blue-500={href === '#' + activeSectionId}
+						class="mr-5 hover:text-gray-900">{title}</a
+					>
 				{/each}
 			</nav>
-			<Button text="Contact us" href="#contact" varient="secondary" size="sm" />
+			<Button text="Contact us" href="#contact" varient={activeSectionId === "contact"?"primary":"secondary"} size="sm" />
 		</div>
 		<div class="md:hidden">
 			<button on:click={handleMenuClick}><Hamburger bind:isActive /></button>

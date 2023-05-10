@@ -3,19 +3,19 @@
 	export let onClick: (() => void) | undefined = undefined;
 	export let varient: 'primary' | 'secondary' = 'primary';
 	export let size: 'sm' | 'md' = 'md';
-	export let href: string | undefined = undefined;
+	export let href: string = '';
 </script>
 
 {#if href}
-	<a {href} class={`${varient} ${size} ${$$restProps.class}`}>{text}</a>
+	<a {href} class={`${varient} ${size} ${$$restProps?.class || ""}`}>{text}</a>
 {:else}
-	<button on:click={onClick} class={`${varient} ${size} ${$$restProps.class}`}>{text}</button>
+	<button on:click={onClick} class={`${varient} ${size} ${$$restProps?.class || ""}`}>{text}</button>
 {/if}
 
 <style lang="postcss">
 	button,
 	a {
-		@apply text-center inline-flex capitalize transition-all duration-500 border-0 focus:outline-none  rounded;
+		@apply text-center capitalize transition-all duration-500 border-0 focus:outline-none  rounded;
 	}
 	.sm {
 		@apply py-1 px-3 text-base;

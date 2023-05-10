@@ -4,7 +4,7 @@
 
 <div>
 	<svg
-		class={`ham hamRotate ham1 !stroke-orange-700 ${isActive ? 'active' : ''} `}
+		class={`ham hamRotate ham1 ${isActive ? 'active' : ''} `}
 		viewBox="0 0 100 100"
 		width={60}
 	>
@@ -41,7 +41,7 @@
 		transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
 		stroke-width: 5.5;
 		stroke-linecap: round;
-		@apply stroke-neutral-900 dark:stroke-white;
+		@apply stroke-neutral-900;
 	}
 
 	.ham1 .top {
