@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition';
+
 	import Hamburger from '../svg/icons/Hamburger.svelte';
 	import Logo from '../svg/icons/Logo.svelte';
 	import Button from '../ui/Button.svelte';
@@ -74,7 +76,7 @@
 
 <!-- mobile menu -->
 {#if isActive}
-	<div class="sticky top-0 h-screen w-screen bg-slate-50 flex items-center justify-center z-20">
+	<div transition:fade class="sticky top-0 h-screen w-screen bg-slate-50 flex items-center justify-center z-20">
 		<nav class="flex flex-col w-full p-4 space-y-4">
 			{#each navlinks as { title, href }}
 				<a {href} on:click={handleMenuClick} class="mr-5 text-2xl hover:text-gray-900">{title}</a>
