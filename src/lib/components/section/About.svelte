@@ -62,6 +62,6 @@ import SectionHeader from '../ui/SectionHeader.svelte';
 				surgeries makes her a sought-after specialist in the field of reproductive medicine.
 			</p>
 		</div>
-		<Social />
+		<!-- <Social /> -->
 	</div>
 </section>
