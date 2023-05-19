@@ -1,5 +1,6 @@
 <script>
 	import SectionHeader from '../ui/SectionHeader.svelte';
+	import NidhiImage from '../../images/nidhi.jpeg'
 </script>
 
 <section class="text-gray-600 body-font" id="experience">
@@ -8,7 +9,7 @@
 			<img
 				class="object-cover object-center rounded"
 				alt="hero"
-				src="/nidhi.png"
+				src={NidhiImage}
 			/>
 		</div>
 		<div

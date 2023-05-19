@@ -8,6 +8,7 @@
 			height="100%"
 			frameborder="0"
 			marginheight="0"
+			loading="lazy"
 			marginwidth="0"
 			title="map"
 			scrolling="no"

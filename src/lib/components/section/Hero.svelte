@@ -1,5 +1,6 @@
 <script>
 	import Button from '$lib/components/ui/Button.svelte';
+	import HeroImage from '$lib/images/home.png';
 </script>
 
 <section class="text-gray-600 body-font">
@@ -8,7 +9,7 @@
 			<img
 				class="object-cover object-center rounded"
 				alt="hero"
-				src="/Dr. Nidhi Sharma.png"
+				src={HeroImage}
 			/>
 		</div>
 		<div
