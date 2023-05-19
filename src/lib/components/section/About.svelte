@@ -1,6 +1,5 @@
 <script>
-	import Social from '../Social.svelte';
-import SectionHeader from '../ui/SectionHeader.svelte';
+	import SectionHeader from '../ui/SectionHeader.svelte';
 </script>
 
 <section class="text-gray-600 body-font bg-slate-50" id="about">
@@ -8,21 +7,21 @@ import SectionHeader from '../ui/SectionHeader.svelte';
 		<div class="flex flex-col text-center w-full mb-20 space-y-4">
 			<SectionHeader title="About us" />
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-				At Jindal IVF and Sant Memorial Nursing Home, Dr. Nidhi Sharma is a senior consultant in
-				Obstetrics and Gynecology as well as an infertility specialist. Dr. Sharma has extensive
-				experience in assisted reproductive technology, laparoscopic surgeries, obstetric and
-				gynecological ultrasound, and gynecological surgeries such as myomectomy, exploratory
+				At Jindal IVF and Sant Commitment Nursing Residential, Dr. Nidhi Sharma may well be a senior
+				master in Obstetrics and Gynecology as well as an pointlessness ace. Dr. Sharma has wide
+				experience in made a difference regenerative advancement, laparoscopic surgeries, obstetric
+				and gynecological ultrasound, and gynecological surgeries such as myomectomy, exploratory
 				laparotomy, vaginal and uterine prolapse operations, and reconstructive tubal, uterine,
 				ovarian, and vaginal surgery.
 			</p>
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-				Dr. Sharma received her medical degree with distinctions in Pharmacology, Biochemistry,
-				Microbiology, and a certificate of honor with first position in Medicine from the Tamil Nadu
-				NGR Medical University in Chennai. She then pursued her M.S in Obstetrics and Gynecology at
-				NSCB Medical Collage Jabalpur (M.P) and completed her senior residency in the Department of
-				Obstetrics and Gynecology at PGIMER Chandigarh. She is a life member of the Federation of
-				Obs & Gynae Society India, Indian Fertility Society, Chandigarh Obs & Gynae Society, and
-				Indian Society of Assisted Reproduction.
+				Dr. Sharma gotten her therapeutic degree with qualifications in Pharmacology, Natural
+				chemistry, Microbiology, and a certificate of honor with to begin with position in
+				Medication from the Tamil Nadu NGR Restorative College in Chennai. She at that point sought
+				after her M.S in Obstetrics and Gynecology at NSCB Therapeutic Collage Jabalpur (M.P) and
+				completed her senior residency within the Office of Obstetrics and Gynecology at PGIMER
+				Chandigarh. She could be a life part of the League of Obs & Gynae Society India, Indian
+				Richness Society, Chandigarh Obs & Gynae Society, and Indian Society of Helped Propagation.
 			</p>
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
 				Dr. Sharma has a keen interest in academics and has presented numerous papers in regional
@@ -55,11 +54,12 @@ import SectionHeader from '../ui/SectionHeader.svelte';
 				of semen and embryo, and quality control in the laboratory.
 			</p>
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-				Overall, Dr. Nidhi Sharma brings a wealth of experience and knowledge to her role as a
-				senior consultant in Obstetrics and Gynecology and infertility specialist. Her commitment to
-				academics and research ensures that she remains up-to-date with the latest advances in the
-				field, while her expertise in all types of infertility related diagnostic and laparoscopic
-				surgeries makes her a sought-after specialist in the field of reproductive medicine.
+				Generally, Dr. Nidhi Sharma brings a riches of encounter and information to her part as a
+				senior specialist in Obstetrics and Gynecology and fruitlessness pro. Her commitment to
+				scholastics and inquire about guarantees that she remains up-to-date with the most recent
+				propels within the field, whereas her skill in all sorts of barrenness related symptomatic
+				and laparoscopic surgeries makes her a sought-after pro within the field of regenerative
+				medication.
 			</p>
 		</div>
 		<!-- <Social /> -->
