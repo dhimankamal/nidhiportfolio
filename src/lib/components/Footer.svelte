@@ -17,7 +17,7 @@
 			<a href="/" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@kamal</a>
 		</p>
 		<span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-			<a href="/" class="text-gray-500">
+			<a href="https://www.facebook.com/profile.php?id=100092379701574" class="text-gray-500">
 				<svg
 					fill="currentColor"
 					stroke-linecap="round"
@@ -57,7 +57,7 @@
 					<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
 				</svg>
 			</a>
-			<a href="/" class="ml-3 text-gray-500">
+			<a href="https://www.linkedin.com/in/nidhi-sharma-9a30841a/" class="ml-3 text-gray-500">
 				<svg
 					fill="currentColor"
 					stroke="currentColor"
