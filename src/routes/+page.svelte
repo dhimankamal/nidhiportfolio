@@ -46,9 +46,9 @@
 		"@type": "Person",
 		"name": "Dr. Nidhi Sharma",
 		"jobTitle": "Experienced and Compassionate Gynecologist and Obstetrician",
-		"url": ogUrl,
-		"description": pageDescription,
-		"image": ogImage,
+		"url": "https://nidhisharma.medicreatives.net/",
+		"description": "Welcome to the website of Dr. Sharma, a highly skilled and experienced gynecologist and obstetrician who is dedicated to providing the highest quality care to her patients.",
+		"image": "/src/lib/images/home.png",
 		"sameAs": [
 		  "https://www.linkedin.com/in/nidhi-sharma-9a30841a/",
 		  "https://www.facebook.com/profile.php?id=100092379701574",
