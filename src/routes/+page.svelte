@@ -14,7 +14,8 @@
 		'Welcome to the website of Dr. Sharma, a highly skilled and experienced gynecologist and obstetrician who is dedicated to providing the highest quality care to her patients.';
 	let ogImage = HeroImage;
 	let ogUrl = 'https://nidhisharma.medicreatives.net/';
-	let twitterHandle = '@YourTwitterHandle';
+	let twitterHandle = '@NidhiSh65788564';
+	const keywords = "gynecologist, obstetrician, experienced doctor, compassionate care, women's health, Chandigarh, reproductive health, prenatal care, childbirth, fertility, menopause, gynecological disorders, pregnancy, postnatal care, pelvic health, family planning"
 </script>
 
 <svelte:head>
@@ -23,6 +24,7 @@
 
 	<!-- Open Graph Meta Tags -->
 	<meta property="og:title" content={pageTitle} />
+	<meta property="og:keywords" content={keywords} />
 	<meta property="og:description" content={pageDescription} />
 	<meta property="og:image" content={ogImage} />
 	<meta property="og:url" content={ogUrl} />
@@ -44,13 +46,13 @@
 		"@type": "Person",
 		"name": "Dr. Nidhi Sharma",
 		"jobTitle": "Experienced and Compassionate Gynecologist and Obstetrician",
-		"url": "{ogUrl}",
-		"description": "{pageDescription}",
-		"image": "{ogImage}",
+		"url": ogUrl,
+		"description": pageDescription,
+		"image": ogImage,
 		"sameAs": [
-		  "https://www.linkedin.com/in/your-linkedin-profile",
-		  "https://github.com/your-github-profile",
-		  "https://twitter.com/your-twitter-profile"
+		  "https://www.linkedin.com/in/nidhi-sharma-9a30841a/",
+		  "https://www.facebook.com/profile.php?id=100092379701574",
+		  "https://instagram.com/nidhi.sharma1909?igshid=MzRlODBiNWFlZA=="
 		]
 	  }
 	</script>
